@@ -1,4 +1,4 @@
-// File: c:\Users\ASUS\Desktop\ai-learning-os\frontend\src\app\notes\page.tsx
+// File: C:\Users\ASUS\Desktop\ai-learning-os\frontend\src\app\notes\page.tsx
 import * as entry from '../../../../src/app/notes/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

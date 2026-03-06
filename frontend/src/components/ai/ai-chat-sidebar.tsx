@@ -19,7 +19,7 @@ interface AIChatSidebarProps {
 }
 
 export default function AIChatSidebar({ isOpen = true, onClose }: AIChatSidebarProps) {
-  const [messages, setMessages] = useState<Message[]>(aiChatMessages);
+  const [messages, setMessages] = useState<Message[]>(aiChatMessages as Message[]);
   const [inputValue, setInputValue] = useState('');
   const [isTyping, setIsTyping] = useState(false);
   const [isMinimized, setIsMinimized] = useState(false);
